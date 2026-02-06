@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="turquoise-bg" id="profileBody">
+
+  <div class="profile-container">
+    <h1>Profile</h1>
+
+    <label>Username</label>
+    <input type="text" id="username" placeholder="Username">
+
+    <label>Email</label>
+    <input type="email" id="email" placeholder="Email">
+
+    <label>Theme Preference</label>
+    <div class="theme-toggle">
+      <span>Light</span>
+      <input type="checkbox" id="themeSwitch">
+      <span>Dark</span>
+    </div>
+
+    <button onclick="saveProfile()">Save Changes</button>
+
+    <button class="back-btn" onclick="window.location.href='/home'">
+      Back
+    </button>
+  </div>
+
+  <script src="/static/profile.js"></script>
+</body>
+</html>

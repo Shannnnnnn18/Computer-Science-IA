@@ -1,0 +1,97 @@
+{
+  "users": {
+    "u001": {
+      "username": "Naz",
+      "email": "naz@example.com",
+      "password": "$pbkdf2-sha256$29000$...replace-with-hash-if-you-generate",
+      "dateCreated": "2025-07-12T14:32:00",
+      "profilePic": "/static/default_pfp.png",
+      "themePref": "light",
+      "lastLogin": null,
+      "tasks": {
+        "t001": {
+          "title": "Sample Task",
+          "description": "This is a starter task.",
+          "dueDate": "2025-08-01T12:00:00",
+          "priority": "High",
+          "status": "Pending",
+          "tags": [
+            "School"
+          ],
+          "reminder": "",
+          "createdAt": "2025-07-12T14:40:00",
+          "lastEdited": null,
+          "recurrence": "none",
+          "recurrenceGenerated": false,
+          "reminderTriggered": false
+        }
+      },
+      "preferences": {}
+    },
+    "u002": {
+      "username": "shaneet18",
+      "email": "shaneet.saha@icsabidjan.org",
+      "password": "scrypt:32768:8:1$Y6vJjrLq7SoIyIfg$0216a8035c5d84e3f8172c40320ee801e4390401e4fec9748b2fa33ab89acaffc5b37287c9f185676a4796c0732b96ae95ba014c6674e6f088ea01fab39b5fd5",
+      "dateCreated": "2025-11-11T14:02:11.595538",
+      "profilePic": "/static/default_pfp.png",
+      "themePref": "light",
+      "lastLogin": "2025-11-11T14:02:27.177350",
+      "tasks": {},
+      "preferences": {}
+    },
+    "u003": {
+      "username": "shaneet67",
+      "email": "shaneet550@gmail.com",
+      "password": "scrypt:32768:8:1$9K3xal8oaLKhfbKj$c142f666ab88bbe5539d5c31135657f8caada567b30496b7fd76948e13c36e849a86bf9ffcb9c15e31bf75ea753a8c6553c957eba755ee117b3b8c550c7c3e70",
+      "dateCreated": "2025-12-23T06:46:47.900425",
+      "profilePic": "/static/default_pfp.png",
+      "themePref": "light",
+      "lastLogin": "2025-12-25T14:40:44.162308",
+      "tasks": {
+        "t001": {
+          "title": "Studying French",
+          "description": "67",
+          "dueDate": "2025-12-13T07:52",
+          "priority": "Low",
+          "status": "Pending",
+          "tags": [],
+          "reminder": "",
+          "createdAt": "2025-12-28T07:50:12.859276",
+          "lastEdited": null,
+          "recurrence": "none",
+          "recurrenceGenerated": false,
+          "reminderTriggered": false
+        }
+      },
+      "preferences": {}
+    },
+    "u004": {
+      "username": "shaneet11",
+      "email": "shaneetsaha33@gmail.com",
+      "password": "scrypt:32768:8:1$uUukIvCF5ch3ybca$ca34ac6636fab1b1b1347c4724f9abbd4e0a5eb905289ce11f5c5c1381aac61f41da5424fb6cb01778e1b16289adba05eb5e36345d2b12ec6b2a8e0ddac025f0",
+      "dateCreated": "2026-01-30T09:44:07.641475",
+      "profilePic": "/static/default_pfp.png",
+      "themePref": "light",
+      "lastLogin": null,
+      "tasks": {
+        "t003": {
+          "title": "CS IA",
+          "description": "",
+          "dueDate": "2026-02-11T12:26",
+          "priority": "Medium",
+          "status": "Pending",
+          "completed": false,
+          "tags": [],
+          "reminder": "",
+          "createdAt": "2026-02-02T12:26:36.076978",
+          "lastEdited": null,
+          "recurrence": "none",
+          "recurrenceGenerated": false,
+          "reminderTriggered": false,
+          "order": 2
+        }
+      },
+      "preferences": {}
+    }
+  }
+}

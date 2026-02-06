@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.login-body {
+    background-color: #9e9e9e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    width: 320px;
+    text-align: center;
+}
+.login-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.login-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+.login-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.login-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #00bcd4;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    text-decoration: underline;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+/* ERROR MESSAGE */
+.error-text {
+    margin-top: 15px;
+    color: red;
+    font-size: 14px;
+}
+.menu-body {
+    background-color: #63e6e6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menu-btn {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #f2f2f2;
+}
+
+.home-bg {
+  background-color: #5fe3e0; /* turquoise */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.menu button {
+  width: 220px;
+  padding: 18px;
+  font-size: 20px;
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+/* ===== TASKS PAGE ===== */
+
+.tasks-page {
+  background-color: #58e3e3; /* turquoise */
+  min-height: 100vh;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.tasks-layout {
+  display: flex;
+  gap: 40px;
+}
+
+/* LEFT COLUMN */
+.task-list {
+  flex: 2;
+}
+
+.task-card {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 15px;
+  width: 320px;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.task-notes {
+  font-size: 14px;
+  color: #333;
+}
+
+/* RIGHT COLUMN */
+.task-actions {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-actions button {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+}

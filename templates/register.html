@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="login-body">
+
+    <div class="login-container">
+        <h1 class="login-title">CREATE ACCOUNT</h1>
+
+        <label class="login-label">Enter Username:</label>
+        <input type="text" id="register-username" class="login-input">
+
+        <label class="login-label">Enter Email:</label>
+        <input type="email" id="register-email" class="login-input">
+
+        <label class="login-label">Enter Password:</label>
+        <input type="password" id="register-password" class="login-input">
+
+        <button class="login-button" onclick="registerUser()">Register</button>
+
+        <p class="register-text">
+            Have an account?
+            <a href="/" class="register-link">Login</a>
+        </p>
+
+        <p id="register-error" class="error-text"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
