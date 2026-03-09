@@ -92,6 +92,17 @@
         }
       },
       "preferences": {}
+    },
+    "u005": {
+      "username": "ib_moderator",
+      "email": "shaneetsaha304@gmail.com",
+      "password": "scrypt:32768:8:1$dh1hcR8lb0PcjGsw$8694f0f27f068e4769d2003b8122218e3cef9623cdc8b5b1e7c9d46e56a57c8a1391dd3b2549de578b04eb399783c324bfcea15fae28f4160d7f6254b45656be",
+      "dateCreated": "2026-03-09T20:13:24.350689",
+      "profilePic": "/static/default_pfp.png",
+      "themePref": "light",
+      "lastLogin": null,
+      "tasks": {},
+      "preferences": {}
     }
   }
 }
